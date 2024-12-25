@@ -23,7 +23,7 @@ body{
     border: 2px solid rgba(255,255,255,.2);
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     backdrop-filter: blur(50px);
-    color: #fff;
+    color: #000;
     border-radius: 10px;
     padding: 40px 35px 55px;
     margin: 0 10px;
@@ -55,13 +55,15 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     outline: none;
     font-size: 16px;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     border-radius: 6px;
     padding: 15px 15px 15px 40px;
 }
 
 .input-box .input-field input::placeholder{
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
 }
 
 .input-box .input-field i{
